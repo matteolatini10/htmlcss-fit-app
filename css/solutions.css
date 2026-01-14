@@ -29,17 +29,22 @@
 
 }
 
-.progress-bar {
+
+.progress-fill::after {
+    content:"65%";
     position: relative;
-    width: 65%;
+    
 }
 
-.progress-fill {
-    position: absolute;
-    right: 210px;
-    transform: translateY(-50%);
+.progress-bar {
+    position: relative;
 }
 
 .stats-grid:first-child::before {
     content: "🔥";
 }
+
+.exercise-item:nth-child(even)::before {
+    content: "⚡";
+}
+    
