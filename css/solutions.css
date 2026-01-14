@@ -28,3 +28,18 @@
     background-color: #2563eb;
 
 }
+
+.progress-bar {
+    position: relative;
+    width: 65%;
+}
+
+.progress-fill {
+    position: absolute;
+    right: 210px;
+    transform: translateY(-50%);
+}
+
+.stats-grid:first-child::before {
+    content: "🔥";
+}
