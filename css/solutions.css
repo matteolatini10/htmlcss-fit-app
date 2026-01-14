@@ -49,3 +49,13 @@
     content: "⚡";
 }
     
+p::after {
+    content:"‶";
+    color:rgba(254, 230, 230, 0.914);
+}
+
+p::before {
+    content:"‟";
+    color:rgb(234, 226, 226);
+    
+}
