@@ -33,7 +33,8 @@
 .progress-fill::after {
     content:"65%";
     position: relative;
-    
+    left: 264px;
+    top: -6px;
 }
 
 .progress-bar {
