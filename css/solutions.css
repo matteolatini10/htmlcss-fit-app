@@ -11,3 +11,14 @@
     border-left:5px solid orange;
     background-color: yellow;
 }
+
+.exercise-item:first-child {
+    border-left: 5px solid green;
+    background-color: rgb(166, 236, 166);
+}
+
+.exercise-item:nth-child(4) {
+    border-left: 5px solid green;
+    background-color: rgb(166, 236, 166);
+
+}
